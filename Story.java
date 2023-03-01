@@ -9,7 +9,7 @@ public class Story {
         GameLogic.printSeparator(30);
         System.out.println("One day you were playing your \"RPG\" games, when suddenly you are teleported into a different world");
         System.out.println("You are tasked with defeating the lord of cinder, but first you must defeat the henchmen");
-        System.out.println("Gather your might and prepare to FUCK... I mean FIGHT!");
+        System.out.println("Gather your might and prepare to... FIGHT!");
         GameLogic.anythingToContinue();
     }
     public static void printFirstActIntro(){

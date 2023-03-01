@@ -1,4 +1,4 @@
-import java.util.*;
+
 public class Player extends Character {
     //integers to store number of upgrades/skills in each path
     public int numAtkUpgrades, numDefUpgrades;
@@ -31,7 +31,7 @@ public class Player extends Character {
 
     @Override
     public int defend() {
-        return (int)(Math.random()* (xp/4 +numDefUpgrades * 3 + 3) + xp/10 + numDefUpgrades * 2 + numAtkUpgrades + 1);
+        return (int)(Math.random()* (xp/4 + numDefUpgrades * 3 + 3) + xp/10 + numDefUpgrades * 2 + numAtkUpgrades + 1);
     }
     //let player choose a trait of either skill path
     public void chooseTrait(){
